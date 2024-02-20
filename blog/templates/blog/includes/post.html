@@ -1,15 +1,14 @@
+{% load static %}
+
 <li>
-    <article class="post">
-        <a href="{% url "single-post-page" slug="smoothie-recipe" %}">
-            <img src="" alt="Selva's posts">
-        </a>
-        <div class="post__content">
-            <h3>Healthy Smoothie</h3>
-            <p>
-                Smoothies are a good way to start you healthy day.
-                Try a smoothie for your breakfast.
-                Keeps you energetic and full of vigour.
-            </p>
-        </div>
-    </article>
+    <a href="{% url "single-post-page" slug="smoothie" %}">Healthy Smoothie</a>
+</li>
+<li>
+    <a href="{% url "single-post-page" slug="exercise" %}">Exercising</a>
+</li>
+<li>
+    <a href="{% url "single-post-page" slug="good-sleep" %}">Good Sleep</a>
+</li>
+<li>
+    <a href="{% url "single-post-page" slug="healthy-diet" %}">Healthy Diet</a>
 </li>
